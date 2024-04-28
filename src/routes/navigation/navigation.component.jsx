@@ -1,12 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
 import './navigation.styles.scss';
-
 const Navigation = () => {
   return (
     <>
       <div className='navigation'>
         <Link to='/' className='logo-container'>
-          <div><img  className="logo" src="../../assets/crown.svg" alt="" /></div>
+          <div><img src="src/routes/navigation/crown.svg" alt="" /></div>
         </Link>
         <div className='nav-links-container'>
           <Link to='/' className="nav-link">Home</Link>
